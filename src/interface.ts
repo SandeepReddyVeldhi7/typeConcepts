@@ -17,9 +17,9 @@ interface Chai {
     type:string | number
 }
 
-function inter(i:Chai){
-    console.log(i)
+function inter(i:Chai):void{
+    console.log(i,"i")
 }
 
 
-
+inter({name: "hello", type: "tea"})
