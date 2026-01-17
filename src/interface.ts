@@ -12,6 +12,8 @@ function displayTea(all:Tea){
     console.log(all)
 }
 
+displayTea(tea)
+
 interface Chai {
     name:string,
     type:string | number
